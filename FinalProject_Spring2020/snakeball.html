@@ -1,0 +1,39 @@
+<!-- this file is the html for the SnakeBall game and shows the MLB longest hitting streaks-->
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name = "description" content = "Web Design Final- SnakeBall">
+    <meta name = "author" conent = " Will Morley, Full stack developer">
+
+    <title> Snake</title>
+    <link rel ="stylesheet" type ="text/css" href="game.css">
+  </head>
+
+  <body>
+    <div id="highscorediv" style = "z-index: 7;">
+      <div id="highscorestable" class= "shadow"></div>
+    </div>
+
+    <canvas width= 496px height= 496px id="game"></canvas>
+
+    <div class = "standings"> 
+      <right>
+      <p><u>Longest MLB hit streaks:</u></p>
+      <p>Joe DiMaggio: 56 games, 1941</p>
+      <p>Willie Keeler: 45 games 1896</p>
+      <p>Pete Rose: 44 games, 1978</p>
+      <p>Bill Dahlen: 42 games, 1894</p>
+      <p>George Sisler: 41 games, 1922</p>
+      <p>Ty Cobb: 40 games, 1911</p>
+      <p>Paul Molitor: 39 games, 1987</p>
+      <p>Jimmy Rollins: 38 games, 2005</p>
+      <p>Tommy Holmes: 37 games, 1945</p>
+      <p>Gene DeMontreville: 36 games, 1896</p>
+      </right>
+    </div>
+    
+    <script src = "game.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </body>
+</html>

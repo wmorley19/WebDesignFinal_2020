@@ -1,0 +1,38 @@
+/* this file is the css styling for SnakeBall*/
+
+#highscorediv{
+	display: fixed;
+	position: left;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+body {
+	background: url(grass.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+canvas {
+    border: 1px solid black;
+    background: url('baseballField.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  .standings{
+	text-align: right;
+	vertical-align: top;
+	font-family: "Apple Chancery",cursive;
+
+}
+.playball{
+	text-align: top;
+	vertical-align: top;
+	font-weight: bold;
+	font-size: 10px;
+}
